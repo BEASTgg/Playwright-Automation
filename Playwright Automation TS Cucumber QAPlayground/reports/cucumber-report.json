@@ -1,0 +1,89 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "ecommerse-validiations;placing-the-order",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Placing the order",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is logged into the website using \"admin\" and \"admin123\"",
+            "match": {
+              "location": "step_definitions\\steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3517584099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "User lands on dashboard page",
+            "match": {
+              "location": "step_definitions\\steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 402799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "User Click on new Transaction using \"Deposit\" \"Checking Account - $2,500.00\" \"Primary Savings - $5,000.00\" \"1000\" \"IDK\" \"true\" and submit it",
+            "match": {
+              "location": "step_definitions\\steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 643977400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Transaction is completed , Print the last transaction record",
+            "match": {
+              "location": "step_definitions\\steps.ts:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7548399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "Close the browser",
+            "match": {
+              "location": "step_definitions\\steps.ts:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 403863699
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "ecommerse-validiations",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Ecommerse Validiations",
+    "tags": [],
+    "uri": "features\\Ecommerse.feature"
+  }
+]
